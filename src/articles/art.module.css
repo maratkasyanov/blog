@@ -1,0 +1,332 @@
+.artall{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardArt{
+  box-shadow: 0px 4px 12px 0px #00000026;
+  width: 938px;
+  height: 120px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #FFFFFF;
+  padding: 2px 12px;
+  padding-top: 13px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.cardArtText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 95px;
+}
+.cardRow{
+  display: flex;
+  align-items: center;
+}
+.nameUser{
+  display: flex;
+  flex-direction: row;
+}
+.frstNameLstName{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-right: 6px;
+}
+.authorUserLogo{
+  width: 45px;
+  height: 45px;
+}
+.NameFrst{
+  font-family: 'Inter',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.85);
+}
+.NameLast{
+  font-family: 'Inter',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.85);
+}
+.artPage2 {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 938px;
+background-color: #FFFFFF;
+padding: 20px;
+}
+.artHead2{
+  display: flex;
+  flex-wrap: wrap;
+font-family: 'Inter',sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(0, 0, 0, 0.75);
+overflow: hidden;
+}
+.artRow{
+  display: flex;
+  flex-direction: column;
+}
+.artTitleName{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.artTag{
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+font-family: 'Inter',sans-serif;
+border: 1px solid #00000080;
+border-radius: 3px;
+color:  rgba(0, 0, 0, 0.5);
+margin: 0px 2px;
+
+background-color: #FFFFFF;
+}
+.artDescr{
+font-family: 'Inter',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+width: 700px;
+color:#000000BF;
+;
+
+}
+
+.artTitle{
+font-family: 'Inter',sans-serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+
+text-decoration: none;
+color: #1890FF;
+}
+.artTitle2{
+font-family: 'Inter',sans-serif;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #1890FF;
+}
+
+.artNameDescr{
+display: flex;
+align-items: baseline;
+}
+.artNameDescrNameUser{
+  display: flex;
+}
+.artDescrNameUser{
+  display: flex;
+  margin-bottom: -21px;
+}
+
+.artUser{
+  display: flex;
+  flex-direction: column;
+  margin-left: 620px;
+}
+.artUserName2{
+
+  font-family: 'Inter',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#000000D9;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  margin-right: 10px;
+}
+.artUserName{
+  font-family: 'Inter',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#000000D9;
+}
+.artUserDate2{
+font-family: 'Inter',sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+color: #00000080;
+margin: 0px 0px;
+padding: 0px 0px;
+margin-right: 10px;
+}
+.artUserDate{
+  font-family: 'Inter',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #00000080;
+
+  }
+.artUserImg{
+  margin-left: 10px;
+  width: 46px;
+  height: 46px;
+}
+.artLike::before{
+  content: url('../img/likes2.svg');
+     display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2;
+    padding-right: 3px;
+   
+}
+.tagbtn{
+  font-family: 'Inter',sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+background-color:#FFFFFF;
+border: 1px solid rgba(20, 20, 20, 0.5);
+color: rgba(0, 0, 0, 0.5);
+border-radius: 2px;
+margin: 0px 1px;
+}
+.favoritcount{
+  background-color: #FFFFFF;
+  border: none;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: 'Inter',sans-serif;
+}
+.titletext{
+  font-family: 'Inter',sans-serif;
+  text-decoration: none ;
+  color: rgba(24, 144, 255, 1);
+  margin-right: 5px;
+  font-size: 18px;
+}
+.descriptiontext{
+  font-family: 'Inter',sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(0, 0, 0, 0.75);
+
+}
+.artLike{
+  margin-left: 10px;
+}
+.artNameDate{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.artDescr2{
+font-family: 'Inter',sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+margin-left: 10px;
+margin-right: 80px;
+color: rgba(0, 0, 0, 0.5);
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.artSubtitle{
+font-family: 'Inter',sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(0, 0, 0, 0.75);
+}
+.artSubtitleDescr{
+font-family: 'Inter',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(0, 0, 0, 0.75);
+
+}
+.artUserlogo{
+  width: 45px;
+  height: 45px;
+}
+.DateName{
+  display: flex;
+  flex-direction: column;
+}
+.ArtLike{
+  font-family: 'Inter',sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 10px;
+  height: 20px;
+  }
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.marSpan{
+  margin-top: 10px;
+}
+.DeleteBtn{
+  font-family: 'Inter',sans-serif;
+  width: 78px;
+height: 31.09756088256836px;
+font-size: 14px;
+border-radius: 5px;
+color: rgba(245, 34, 45, 1);
+
+border: 1px solid rgba(245, 34, 45, 1);
+background-color: #FFFFFF;
+margin-right: 10px;
+}
+.EditA{
+  font-family: 'Inter',sans-serif;
+font-size: 14px;
+border-radius: 5px;
+padding: 6.5px 20px;
+  border: 1px solid rgba(82, 196, 26, 1);
+  color:  rgba(82, 196, 26, 1);
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+.active::before{
+  content: url('../img/likes3.svg');
+     display: inline-block;
+     margin-top: -2px;
+    vertical-align:middle;
+    line-height: 1.2;
+    padding-right: 3px;
+}
+.nonactive::before{
+  content: url('../img/likes2.svg');
+  display: inline-block;
+  margin-top: -2px;
+ vertical-align: middle;
+ line-height: 1.2;
+ padding-right: 3px;
+}
+.mr{
+  margin-top: 5px;
+  margin-left: 5px;
+}

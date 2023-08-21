@@ -1,0 +1,10 @@
+{
+  "routes": [
+    { "src": "/articles/:slug", "dest": "/" },
+    { "src": "/sign-in", "dest": "/" },
+    { "src": "/profile", "dest": "/" },
+    { "src": "/sign-up", "dest": "/" },
+    { "src": "/new-article", "dest": "/" },
+    { "src": "/articles/:slug/edit", "dest": "/" }
+  ]
+}
