@@ -1,1 +1,1 @@
-https://build-k6dbclyua-kasyanovm03-gmailcom.vercel.app/
+https://build-kasyanovm03-gmailcom.vercel.app/
